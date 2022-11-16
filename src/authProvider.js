@@ -23,6 +23,7 @@ const authProvider = {
   },
   checkError: (error) => {
     const status = error.status;
+    console.log("CHECKERROR Called")
     if (status === 401 || status === 403) {
       localStorage.removeItem("username");
       return Promise.reject();

@@ -36,7 +36,7 @@ const CustomizedDialogs = (props) => {
         <DialogContent>
           <form onSubmit={handleSubmit}>
             {/* <TextField id="standard-basic" label="Username" variant="standard" name="username" type="text" value={username} onChange={(e) => setUsername(e.target.value)} /> */}
-            <TextField autofocus margin="dense" fullWidth id="outlined-textarea" label="Username" placeholder="Input your username" name="username" type="text" value={username} onChange={(e) => setUsername(e.target.value)} multiline />
+            <TextField autoFocus margin="dense" fullWidth id="outlined-textarea" label="Username" placeholder="Input your username" name="username" type="text" value={username} onChange={(e) => setUsername(e.target.value)} multiline />
 
             <TextField
               sx={{ marginY: 2 }}
